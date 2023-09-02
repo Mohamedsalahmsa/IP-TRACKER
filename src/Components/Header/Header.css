@@ -1,0 +1,97 @@
+:root {
+    /* ## Colors */
+
+    --Very-Dark-Gray: hsl(0, 0%, 17%);
+    --Dark-Gray: hsl(0, 0%, 59%);
+}
+.ParentBg {
+    background-image: url(../../assign/images/pattern-bg-desktop.png);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.ParentBg .SearchContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ParentBg .SearchContent h2 {
+    color: #fff;
+    font-size: 35px;
+}
+.ParentBg .SearchContent .SearchForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.ParentBg .SearchContent .SearchForm input{
+    padding: 13px;
+    width: 40%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--Very-Dark-Gray);
+    font-size: 15px;
+    height: 50px;
+    color: #111;
+}
+.ParentBg .SearchContent .SearchForm input:focus {
+    outline: none;
+}
+.ParentBg .SearchContent .SearchForm .btn {
+    margin-left: -10px;
+    padding: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    height: 50px;
+}
+
+/* ----------------------------- */
+.showContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 5px 28px 25px -16px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+.showContent ul{
+    display: flex;
+    justify-content: space-around;
+}
+.showContent ul li {
+    list-style: none;
+}
+.showContent ul li p {
+    margin-bottom: 10px;
+    font-size: 12.5px;
+    color: var(--Dark-Gray);
+}
+.showContent ul li h2 {
+    color: #222;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    margin-top: -5px;
+}
+#so {
+    width: 100%;
+    height: 100vh;
+}
+.hide {
+    display: none;
+}
